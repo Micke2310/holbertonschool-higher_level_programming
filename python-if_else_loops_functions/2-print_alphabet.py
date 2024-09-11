@@ -2,4 +2,4 @@
 num = 0
 for num in range(97, 123):
     alphabet = chr(num)
-    print(alphabet, end= '')
+    print(f" {alphabet}", end= '')
