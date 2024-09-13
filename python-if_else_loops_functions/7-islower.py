@@ -9,10 +9,10 @@ def islower(caracter):
 '''
 #!/usr/bin/python3
 def islower(c):
-    char = ord(c)
-    if char >= ord('a') or char >= ord('z'):
+    c = ord(c)
+    if c >= ord('a') or c >= ord('z'):
         return True
-    elif char >= ord('Z') or char >= ord('Z'):
+    elif c >= ord('Z') or c>= ord('Z'):
         return False
     else:
         return False
