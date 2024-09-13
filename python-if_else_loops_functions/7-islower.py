@@ -2,8 +2,7 @@
 
 
 def islower(caracter):
-        if ord(caracter) >= 97 or ord(caracter) <= 123:
-            caracter in range('a', 'z')
+        if ord(caracter) >= 97 and ord(caracter) <= 123:
             return True
         else:
             return False
