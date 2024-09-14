@@ -2,11 +2,12 @@
 def uppercase(string):
     resultado = ""
 
-    for char in string:
-        if char in range("a","z"):
-            resultado = resultado + chr(ord(char) -32)
+    for i in string:
+        if i in range("96","123"):
+            i = ord(i)
+            resultado = resultado + chr(ord(i) -32)
 
         else:
-            resultado = resultado + char
+            resultado = resultado + i
 
     return resultado
