@@ -4,7 +4,7 @@ def uppercase(string):
 
     for char in string:
         if char >= 'a' and char <= 'z':
-            resultado = resultado + chr(ord(char) -32)
+            resultado = resultado + chr(ord(char) - 32)
 
         else:
             resultado = resultado + char
