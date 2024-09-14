@@ -15,7 +15,7 @@ def fizzbuzz():
             numeros = num
 
         else:
-            print(num, end="")
+            print(f"{num} ", end="")
             numeros = num
 
     return numeros
