@@ -7,4 +7,4 @@ def replace_in_list(my_list, idx, element):
         print(my_list)
         my_list[idx] = element
         new_list = my_list
-        return new_list
+        return 
