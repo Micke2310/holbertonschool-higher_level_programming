@@ -9,4 +9,4 @@ def multiple_returns(sentence):
         else:
             length = 0
             first = None
-        return (length, first)
+        print("Length: {:d} - First: {}".format(length, first))
