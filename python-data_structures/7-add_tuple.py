@@ -1,8 +1,8 @@
-#!/usr/bin/python3
+i#!/usr/bin/python3
 
 def add_tuple(tuple_a = (), tuple_b = ()):
-    tuple_a = a1, a2
-    tuple_b = b1, b2
+    a1, a2 = (tupla_a + (0, 0))[:2]
+    b1, b2 = (tupla_b + (0, 0))[:2]
 
     suma1 = a1 + b1
     suma2 = a2 + b2
