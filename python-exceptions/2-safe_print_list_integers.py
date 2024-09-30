@@ -4,9 +4,10 @@ def safe_print_list_integers(my_list=[], x=0):
 
     for i in range(x):
         try:
-        
-            if type(my_list[i]) is int:
-                print("{:d}".format(my_list[i]), end="")
+            dato = my_list[i]
+
+            if isinstance(dato, int):
+                print("{:d}".format(dato), end="")
                 contador = contador + 1
 
         except IndexError:
