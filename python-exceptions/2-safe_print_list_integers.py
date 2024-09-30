@@ -10,9 +10,9 @@ def safe_print_list_integers(my_list=[], x=0):
                 print("{:d}".format(dato), end="")
                 contador = contador + 1
 
-        except IndexError as e:
-            print(e)
-            break
+        except IndexError:
+            print("Traceback (most recent call last):")
+            raise
 
     print ("")
 
