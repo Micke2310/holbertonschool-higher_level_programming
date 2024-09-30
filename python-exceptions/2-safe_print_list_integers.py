@@ -10,7 +10,8 @@ def safe_print_list_integers(my_list=[], x=0):
                 print("{:d}".format(dato), end="")
                 contador = contador + 1
 
-        except IndexError:
+        except IndexError as e:
+            print(e)
             break
 
     print ("")
