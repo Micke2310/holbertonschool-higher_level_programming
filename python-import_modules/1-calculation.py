@@ -7,13 +7,13 @@ if __name__ == "__main__":
     b = 5
 
     suma = add(a, b)
-    print(f"{a} + {b} = {suma}")
+    print("{} + {} = {}".format(a, b, suma))
 
     resta = sub(a, b)
-    print(f"{a} - {b} = {resta}")
+    print("{} - {} = {}".format(a, b, resta))
 
     multiplicacion = mul(a, b)
-    print(f"{a} * {b} = {multiplicacion}")
+    print("{} * {} = {}".format(a, b, ,multiplicacion))
 
     division = div(a, b)
-    print(f"{a} / {b} = {division}")
+    print("{} / {} = {}".format(a, b, division))
