@@ -13,7 +13,7 @@ if __name__ == "__main__":
     print("{} - {} = {}".format(a, b, resta))
 
     multiplicacion = mul(a, b)
-    print("{} * {} = {}".format(a, b, ,multiplicacion))
+    print("{} * {} = {}".format(a, b, multiplicacion))
 
     division = div(a, b)
     print("{} / {} = {}".format(a, b, division))
