@@ -6,11 +6,11 @@ if __name__ == "__main__":
     args = sys.argv[1:]
 
     if not args:
-        print("0 arguments.")
+        print("{}".format("0 arguments."))
     elif len(args) == 1: 
-        print("1 argument:")
-        print(f"{len(args)}: {args[0]}")
+        print("{}".format("1 argument:"))
+        print("{}: {}".format(len(args), args[0]))
     else:
-        print(f"{len(args)} arguments:")
+        print("{} {}".format(len(args), "arguments:"))
         for i in range(len(args)):
-            print(f"{i}: {args[i]}")
+            print("{}: {}".format(i + 1, args[i]))

@@ -7,4 +7,4 @@ if __name__ == "__main__":
 
     suma = add(a, b)
 
-    print(f"{a} + {b} = {suma}")
+    print(f"{a} + {b} = {suma}".format(a, b, suma))
