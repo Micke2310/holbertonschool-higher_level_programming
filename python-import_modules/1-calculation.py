@@ -1,17 +1,19 @@
 #!/usr/bin/python3
-from calculator_1 import add, mul, sub, div
+if __name__ == "__main__":
 
-a = 10
-b = 5
+    from calculator_1 import add, mul, sub, div
 
-suma = add(a, b)
-print(f"{a} + {b} = {suma}")
+    a = 10
+    b = 5
 
-resta = sub(a, b)
-print(f"{a} - {b} = {resta}")
+    suma = add(a, b)
+    print(f"{a} + {b} = {suma}")
 
-multiplicacion = mul(a, b)
-print(f"{a} * {b} = {multiplicacion}")
+    resta = sub(a, b)
+    print(f"{a} - {b} = {resta}")
 
-division = div(a, b)
-print(f"{a} / {b} = {division}")
+    multiplicacion = mul(a, b)
+    print(f"{a} * {b} = {multiplicacion}")
+
+    division = div(a, b)
+    print(f"{a} / {b} = {division}")

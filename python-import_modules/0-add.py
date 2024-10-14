@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-from add_0 import add
+if __name__ == "__main__":
+    from add_0 import add
 
-a = 1
-b = 2
+    a = 1
+    b = 2
 
-suma = add(a, b)
+    suma = add(a, b)
 
-print(f"{a} + {b} = {suma}")
+    print(f"{a} + {b} = {suma}")
