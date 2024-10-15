@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-import sys
-suma = 0
+if __name__ == "__main__":
+    import sys
+    suma = 0
 
-for i in sys.argv[1:]:
-    suma = suma + int(i)
+    for i in sys.argv[1:]:
+        suma = suma + int(i)
 
-print("{}".format(suma))
+    print("{}".format(suma))
