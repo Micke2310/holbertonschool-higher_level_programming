@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def square_matrix_simpl(matrix=[]):
+def square_matrix_simple(matrix=[]):
     new_matrix = [] 
     
     for fila in matrix:
