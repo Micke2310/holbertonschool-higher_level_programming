@@ -1,18 +1,17 @@
 #!/usr/bin/python3
 def add_integer(a, b=98):
+    """Suma dos números enteros.
 
-    '''
+    Args:
+        a: El primer número. Será convertido a entero si es un flotante.
+        b: El segundo número. Si no se proporciona, se utiliza el valor por defecto 98.
 
-    funcion : add_integer suma de dos argumentos y son enteros
-    a = debe ser un valor entero
-    b = debe de ser un valor entero
+    Returns:
+        La suma de a y b como un entero.
 
-    en caso que los valores sean flotantes convertirlos en enteros y en caso de no ser
-    entero o flotante, manejarlo como errores.
-
-    retornar: suma de a y b
-
-    '''
+    Raises:
+        TypeError: Si a o b no pueden ser convertidos a enteros.
+    """
 
     suma = int(a) + int(b)
 
