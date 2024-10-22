@@ -10,7 +10,7 @@ def add_integer(a, b=98):
 
     retornar: suma de a y b
     '''
-suma = int(a) + int(b)
+    suma = int(a) + int(b)
 
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
         raise TypeError("a and b must be integers or floats")
