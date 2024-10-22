@@ -8,7 +8,7 @@ def roman_to_int(s):
 
     for i in reversed(s):
         valor_actual = diccionario_romano[i]
-        if valor_actual > valor_ant:
+        if valor_actual < valor_ant:
             resultado -= valor_actual
 
         else:
