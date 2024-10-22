@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def add_integer(a, b=98):
-''' suma de dos enteros
+'''
+suma de dos enteros
 a = debe ser un valor entero
 b = debe de ser un valor entero
 
