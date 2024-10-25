@@ -22,5 +22,5 @@ def guardar_posts_csv_jsonplaceholder_api():
             objeto_generador_datos_csv.writeheader()
             objeto_generador_datos_csv.writerows(lista_post)
 
-        else:
-            print(f"Error: {respuesta.status_code}")
+    else:
+        print(f"Error: {respuesta.status_code}")
