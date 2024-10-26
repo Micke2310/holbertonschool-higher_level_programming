@@ -7,7 +7,7 @@ def fetch_and_print_posts():
     respuesta = requests.get('https://jsonplaceholder.typicode.com/posts')
     print(f"Status Code: {respuesta.status_code}")
 
-if respuesta.status_code == 200:
+    if respuesta.status_code == 200:
         lista_posts = respuesta.json()
         for i in lista_posts:
             print(i['title'])
