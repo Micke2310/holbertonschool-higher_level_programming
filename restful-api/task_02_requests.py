@@ -28,4 +28,4 @@ def fetch_and_save_posts():
     else:
         print(f"Error: Al guardar lista_posts. {respuesta.status_code}")
 
-guardar_posts_csv_jsonplaceholder_api()
+fetch_and_save_posts()
