@@ -3,7 +3,7 @@
 import requests
 import csv
 
-def mostrar_posts_jsonplaceholder_api():
+def fetc_and_print_posts():
     respuesta = requests.get('https://jsonplaceholder.typicode.com/posts')
     if respuesta.status_code == 200:
         lista_posts = respuesta.json()
@@ -14,7 +14,7 @@ def mostrar_posts_jsonplaceholder_api():
             print(f"Error: {respuesta.status_code}")
 
 
-def guardar_posts_csv_jsonplaceholder_api():
+def fetch_and_save_posts():
     respuesta = requests.get('https://jsonplaceholder.typicode.com/posts')
     if respuesta.status_code == 200:
         lista_posts = respuesta.json()
