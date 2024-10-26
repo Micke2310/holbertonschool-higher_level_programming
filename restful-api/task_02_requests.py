@@ -3,7 +3,7 @@
 import requests
 import csv
 
-def fetc_and_print_posts():
+def fetch_and_print_posts():
     respuesta = requests.get('https://jsonplaceholder.typicode.com/posts')
     if respuesta.status_code == 200:
         lista_posts = respuesta.json()
